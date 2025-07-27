@@ -19,8 +19,8 @@ The 'O' Level (R5) course consists of **4 modules**:
 | Module Code | Module Name                                     | Practical Notes |
 |-------------|--------------------------------------------------|-----------------|
 | M1-R5       | Information Technology Tools and Network Basics | ❌ |
-| M2-R5       | [Web Design and Publishing](./m2.md)                     | ✅ |
-| M3-R5       | [Programming and Problem Solving Through Python](./m3.md) | ✅ |
+| M2-R5       | [Web Design and Publishing](./m2.md)                     | ✅ (Not completed) |
+| M3-R5       | [Programming and Problem Solving Through Python](./m3.md) | ✅ (Almost completed) |
 | M4-R5       | Internet of Things and Its Applications       | ❌ |
 
 > ❌ Available soon!
