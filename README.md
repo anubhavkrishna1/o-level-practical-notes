@@ -1,9 +1,3 @@
----
-layout: default
-title: "About These Practical Notes"
-permalink: /about/
-description: "Overview and purpose of the NIELIT 'O' Level R5 practical notes repository."
----
 # NIELIT 'O' Level Practical Notes (R5)
 # o-level-practical-notes
 
