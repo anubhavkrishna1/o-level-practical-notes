@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% seo %}
+	{%- include head-custom.html -%}
+	<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+	<style>
+		:root {
+			--bg: #0b111b;
+			--panel: #111827;
+			--text: #e5e7eb;
+			--muted: #9ca3af;
+			--accent: #3b82f6;
+		}
+		html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji'; }
+		a { color: var(--accent); text-decoration: none; }
+		a:hover { text-decoration: underline; }
+		.container { max-width: 980px; margin: 0 auto; padding: 1rem; }
+		.site-header { background: var(--panel); border-bottom: 1px solid #1f2937; position: sticky; top: 0; z-index: 10; }
+		.site-header .bar { display:flex; align-items:center; justify-content: space-between; gap: 1rem; }
+		.site-title { font-weight: 700; color: var(--text); }
+		.site-nav a { margin-left: 1rem; color: var(--muted); }
+		.site-nav a:hover { color: var(--text); }
+		main.container { padding-top: 2rem; }
+		.site-footer { color: var(--muted); border-top: 1px solid #1f2937; margin-top: 3rem; }
+	</style>
+</head>
+<body>
+	<header class="site-header">
+		<div class="container bar">
+			<a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+			<nav class="site-nav" role="navigation" aria-label="Main navigation">
+				<a href="{{ '/m2/' | relative_url }}">M2 – Web Design</a>
+				<a href="{{ '/m3/' | relative_url }}">M3 – Python</a>
+				<a href="{{ '/about/' | relative_url }}">About</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="content" class="container" role="main">
+		{{ content }}
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<small>&copy; {{ "now" | date: "%Y" }} {{ site.title }}.</small>
+		</div>
+	</footer>
+</body>
+</html>
