@@ -1,0 +1,32 @@
+title: "NIELIT 'O' Level Practical Notes (R5)"
+description: "Practical notes and examples for NIELIT 'O' Level R5 syllabus."
+author: "Anubhav Krishna"
+ceo: "Anubhav Krishna"
+
+markdown: kramdown
+permalink: pretty
+
+# Optional but recommended for SEO/canonical URLs (uncomment and set when deploying)
+url: "https://anubhavkrishna1.github.io"
+baseurl: "/o-level-practical-notes"
+
+lang: en
+timezone: Asia/Kolkata
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+social:
+  name: "NIELIT 'O' Level Practical Notes (R5)"
+  links:
+    - https://github.com/anubhavkrishna1/o-level-practical-notes
+
+# Apply default layout to all pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
